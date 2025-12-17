@@ -1,47 +1,46 @@
 # Portfolio Website
 
-Personal portfolio website built with HTML, CSS and JavaScript.  
-This project is currently a work in progress and is being actively improved.
-
-The goal of this website is to showcase my front-end skills through a clean,
-responsive and well-structured layout, following real-world development practices.
+Personal portfolio website built with HTML, CSS and JavaScript, designed to showcase my front-end development skills through clean UI, responsive layout and real-world project examples.
 
 ---
 
-## 🚧 Project Status
-Work in progress
-
-Planned improvements:
-- Complete the Projects page
-- Add project cards with live demos and GitHub links
-- Final UI polish and UX improvements
+## 🚀 Project Overview
+This website serves as my personal portfolio and is continuously evolving.  
+It follows modern front-end practices with a strong focus on performance, accessibility and cross-browser compatibility.
 
 ---
 
 ## ✨ Features
-- Two-page layout (Home + Projects)
+- Multi-page layout (Home + Projects)
 - Responsive design (mobile, tablet, desktop)
 - Transparent / glass-style navbar
-- Language switcher (EN / SR) with localStorage
-- Clean and accessible UI
+- Language switcher (EN / SR) with localStorage support
+- Projects page with live demo and GitHub links
+- Lazy loading for images
+- Optimized layout and structure
 
 ---
 
-## 🛠 Technologies
+## 🛠 Technologies Used
 - HTML5
-- CSS3 (Flexbox, Grid, responsive layout)
-- JavaScript (DOM manipulation, localStorage)
+- CSS3 (Flexbox, Grid, responsive design)
+- JavaScript (DOM manipulation, language switching, localStorage)
 - Git & GitHub
 
 ---
 
-## 🎯 Purpose
-This project is built as a learning and portfolio website to practice modern
-front-end development and present real projects in a professional way.
+## 📂 Pages
+- **Home** – Hero section, About, Skills and Contact
+- **Projects** – Showcase of selected projects with live demos
 
 ---
 
-## 📌 Live Preview
-Coming soon
+## 🎯 Purpose
+This project is built as a professional portfolio to present my skills, learning progress and completed projects in a clear and structured way.
+
+---
+
+## 🌍 Live Preview
+mkcode-website.netlify.app
 
 ---
