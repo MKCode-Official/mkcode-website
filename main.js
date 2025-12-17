@@ -7,7 +7,18 @@ const translations = {
     aboutTitle: "About Me",
     aboutText: "I’m a second-year IT student focused on front-end development.",
     contactTitle: "Contact",
-    skillsTitle: "Skills"
+    skillsTitle: "Skills",
+    /* Projects */
+    projectsPageTitle: "Projects | Mateja",
+    navHome: "Home",
+    navProjects: "Projects",
+    projectsTitle: "Projects",
+    projectsIntro: "A selection of projects built to practice real-world front-end development.",
+    cafeTitle: "Cafe Website",
+    cafeDesc: "Responsive cafe website built with HTML, CSS and JavaScript. Includes language switcher and optimized layout.",
+    liveDemo: "Live Demo",
+    moreProjectsTitle: "More projects coming soon",
+    moreProjectsText: "New projects will be added as I continue improving my skills."
   },
 
   sr: {
@@ -18,7 +29,18 @@ const translations = {
     aboutTitle: "O meni",
     aboutText: "Student sam druge godine IT-a, fokusiran na front-end development.",
     contactTitle: "Kontakt",
-    skillsTitle: "Veštine"
+    skillsTitle: "Veštine",
+    /* Projects */
+    projectsPageTitle: "Projekti | Mateja",
+    navHome: "Početna",
+    navProjects: "Projekti",
+    projectsTitle: "Projekti",
+    projectsIntro: "Izbor projekata napravljenih radi vežbanja realnog front-end razvoja.",
+    cafeTitle: "Sajt za kafić",
+    cafeDesc: "Responzivan sajt za kafić napravljen korišćenjem HTML-a, CSS-a i JavaScript-a. Uključuje promenu jezika i optimizovan layout.",
+    liveDemo: "Live demo",
+    moreProjectsTitle: "Još projekata uskoro",
+    moreProjectsText: "Novi projekti će biti dodavani kako budem unapređivao svoje veštine."
   }
 };
 

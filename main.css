@@ -378,3 +378,157 @@ footer {
     justify-content: center;
   }
 }
+/* ==================================================
+   PROJECTS PAGE
+   ================================================== */
+
+.projects-page {
+  padding-top: 100px; /* offset zbog fixed navbar */
+  min-height: 100vh;
+
+  background: linear-gradient(135deg, #111, #333);
+  color: #fff;
+}
+
+.projects-title {
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  margin-bottom: 0.5rem;
+}
+
+.projects-intro {
+  max-width: 600px;
+  margin-bottom: 3rem;
+  color: #fff;
+}
+
+/* Grid layout */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2.5rem;
+}
+
+/* Project card */
+.project-card {
+  background-color: #ffffff;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+.project-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Card content */
+.project-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.project-content h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-content p {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Tech list */
+.project-tech {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-tech li {
+  font-size: 0.75rem;
+  padding: 0.35rem 0.75rem;
+  background-color: #333;
+  border-radius: 999px;
+}
+.project-tech li:hover{
+  transform: translateY(-2px);
+  background-color: #111;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  cursor: default;
+}
+/* Links */
+.project-links {
+  margin-top: auto;
+  display: flex;
+  gap: 1rem;
+}
+
+.project-links a {
+  flex: 1;
+  text-align: center;
+
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background-color: #333;
+  border: 1px solid #111;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.project-links a:hover {
+  color: #111;
+}
+
+/* Placeholder card */
+.project-card.placeholder {
+  justify-content: center;
+  text-align: center;
+  background-color: #f3f3f3;
+  border: 2px dashed #ccc;
+}
+
+.project-card.placeholder:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+/* ==================================================
+   RESPONSIVE
+   ================================================== */
+
+@media (max-width: 768px) {
+  .projects-intro {
+    margin-bottom: 2rem;
+  }
+
+  .project-card img {
+    height: 160px;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-page {
+    padding-top: 90px;
+  }
+
+  .project-links {
+    flex-direction: column;
+  }
+}

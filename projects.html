@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-key="projectsPageTitle">MKCode | Projects</title>
+
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="logo">MKCode</a>
+        
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+        <button id="lang-toggle" class="lang-btn">SR</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- PROJECTS -->
+  <main class="projects-page">
+    <section class="projects">
+      <div class="container">
+
+        <h1 class="projects-title" data-key="projectsTitle">Projects</h1>
+        <p class="projects-intro" data-key="projectsIntro">
+          A selection of projects built to practice real-world front-end development.
+        </p>
+
+        <div class="projects-grid">
+
+          <!-- PROJECT CARD -->
+          <article class="project-card">
+            <img
+              src="Slika1-600.webp"
+              alt="Cafe Website project preview"
+              loading="lazy"
+            />
+
+            <div class="project-content">
+              <h3 data-key="cafeTitle">Cafe Website</h3>
+
+              <p data-key="cafeDesc">
+                Responsive cafe website built with HTML, CSS and JavaScript.
+                Includes language switcher and optimized layout.
+              </p>
+
+              <ul class="project-tech">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <div class="project-links">
+                <a href="https://ditrevidemo.netlify.app" target="_blank" data-key="liveDemo">
+                  Live Demo
+                </a>
+                <a href="https://github.com/yourusername/cafe-website" target="_blank">
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- PLACEHOLDER -->
+          <article class="project-card placeholder">
+            <div class="project-content">
+              <h3 data-key="moreProjectsTitle">More projects coming soon</h3>
+              <p data-key="moreProjectsText">
+                New projects will be added as I continue improving my skills.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 mkcode. All rights reserved.</p>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
